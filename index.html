@@ -1,0 +1,62 @@
+# the main page that is served 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Retro-Booth</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+    }
+    .heading h1{
+      text-align: center;
+      color: black;
+      font-size: 45px;
+      margin-top: 100px;
+      margin-bottom: 30px;
+      font-family: 'Anton', sans-serif;
+    }
+    .note p{
+      text-align: center;
+      color: red;
+      font-size: 20px;
+      font-family: 'Anton', sans-serif;
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="heading">
+  <h1>Welcome to Retro-Booth</h1>
+</div>
+  <section class="maititle">
+  <section id="register">
+    <div class="container">
+      <h2>Enter Your Details.</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="snaps">Number of Snaps:</label>
+          <input type="text" class="form-control" id="snaps" placeholder="Enter number (3 5 or 10)" name="snaps">
+        </div>
+        
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+      <div class="note">
+          <p>Note* Enter the booth after clicking submit.</p>
+    </div>
+  
+</body>
+</html>
