@@ -8,7 +8,7 @@ To create an automatic photo booth that clicks a certain amount of pictures once
 At parties or social gatherings , to click pictures 
 to get a nostalgic feeling of the retro photo booth , but modified to today's technology
 
-# process explanation 
+# Process explanation 
 The user walks into the photo booth and visits the web page served by the raspberry pi. Once he enters his details specifying the number of snaps and his email id , The program in Raspberry pi starts working. Once the photos have been snapped, they are automatically mailed to him as he walks out.
 
 # Technical description
